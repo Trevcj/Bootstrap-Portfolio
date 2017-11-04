@@ -61,3 +61,59 @@ body {
   line-height: 60px; /* Vertically center the text there */
   background-color: #f5f5f5;
 }
+
+@media screen
+and (max-width: 640px)
+and (min-width: 300px){
+  #bodyrow{
+    width: 100%;
+  }
+  #mainbody{
+    width: 100%;
+  }
+  #connectbody{
+    width: 100%;
+  }
+  .container{
+    width: 100%;
+  }
+  body{
+    width: 100%;
+  }
+}
+
+@media screen
+and (max-width: 768px)
+and (min-width: 641px){
+  #bodyrow{
+    width: 100%;
+  }
+  #mainbody{
+    width: 100%;
+  }
+  .container{
+    width: 100%;
+  }
+  body{
+    width: 100%;
+  }
+
+}
+
+@media screen
+and (max-width: 940px)
+and (min-width: 769px){
+  #bodyrow{
+    width: 100%;
+  }
+  #mainbody{
+    width: 100%;
+  }
+  .container{
+    width: 100%;
+  }
+  body{
+    width: 100%;
+  }
+
+}
