@@ -8,6 +8,18 @@ body {
   background-image: url(../images/back.png);
 }
 
+#float-left{
+  margin-left: 30%;
+  margin-bottom: 15%;
+  width: 50%;
+}
+
+#float-right{
+  margin-right: 30%;
+  margin-bottom: 15%;
+  width: 50%;
+}
+
 #bodyrow {
   padding: 5%;
 }
