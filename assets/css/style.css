@@ -7,17 +7,22 @@ body {
   margin-bottom: 60px;
   background-image: url(../images/back.png);
 }
+#connect {
+    width: 100%;
+  }
 
-#float-left{
-  margin-left: 30%;
-  margin-bottom: 15%;
-  width: 50%;
+#portImg {
+  width: 400px;
+  height: 300px;
+  padding: 5px;
+  
 }
-
-#float-right{
-  margin-right: 30%;
-  margin-bottom: 15%;
-  width: 50%;
+#caption{
+  width: 400px;
+  padding: 5px;
+  background-color: #4aaaa5;
+  text-align: center;
+  color: #ffffff;
 }
 
 #bodyrow {
@@ -40,10 +45,7 @@ body {
   margin-bottom: 15px;
 }
 
-#connectinfo {
-  float: right;
-  clear: right;
-}
+
  #contactinfo {
   width: 100%;
  }
@@ -78,6 +80,9 @@ and (min-width: 300px){
     width: 100%;
   }
   body{
+    width: 100%;
+  }
+  #connect {
     width: 100%;
   }
 }
